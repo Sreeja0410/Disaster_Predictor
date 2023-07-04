@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Installation](#installation)
+- [Directoy Tree](#directory-tree)
 - [Technologies Used](#technologies-used)
 
 ## Overview
@@ -11,9 +12,9 @@ This [repository](https://github.com/Sreeja0410/Disaster_Predictor) was to creat
 The proposed project, a disaster detection system based on AI technologies, aims to address the societal challenge of efficient disaster management and response. By accurately classifying images into different types of disasters, such as cyclones, earthquakes, floods, and wildfires, the system can contribute to timely and informed decision-making, resource allocation, and response coordination.
 
 The basic approach I used to solve the problem is to develop a solution using computer vision which can generalize among the four major types of disasters. I used transfer learning, fine-tuned VGG-16 which is a state of the art convolutional neural network. I used tensorflow, a popular deep learning package to implement the fine-tuning algorithm to train the model. I have collected the data from a publicly available database by an individual. The project has three parts: 
-- Data arrangement,
-- Training the model,
-- Deploying the model.
+- Data arrangement
+- Training the model
+- Deploying the model
 
 ## Installation
 To run my app on your local machine, do the following steps.
