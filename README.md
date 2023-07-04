@@ -60,7 +60,7 @@ To run my app on your local machine, do the following steps.
    python disaster_detector.py 
    ```
 > **Step 6** :
-   - To train the model, data should be downloaded from [here](https://drive.google.com/file/d/1NvTyhUsrFbL91E10EPm38IjoCg6E2c6q/view), the data folder should be inside the repo folder, first run data_arrange.py. 
+   - To train the model, data should be downloaded from [here](https://drive.google.com/file/d/1NvTyhUsrFbL91E10EPm38IjoCg6E2c6q/view), the data folder should be inside the repo folder, first run data_arrange.py. After downloading dataset rename the folder as Disaster then import it into repo folder.
    ```bash
 python data_arrange.py
    ```
