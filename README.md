@@ -60,7 +60,7 @@ To run my app on your local machine, do the following steps.
    python disaster_detector.py 
    ```
 > **Step 6** :
-   - To train the model, data should be downloaded from [here](https://drive.google.com/file/d/1NvTyhUsrFbL91E10EPm38IjoCg6E2c6q/view), the data folder should be inside the repo folder, first run data_arrange.py. After downloading dataset rename the folder as Disaster then import it into repo folder.
+   - To train the model, data should be downloaded from [here](https://drive.google.com/file/d/1NvTyhUsrFbL91E10EPm38IjoCg6E2c6q/view), the data folder should be inside the repo folder, first run following command. After downloading dataset rename the folder as Disaster then import it into repo folder. This empty folder must be created before running the following command.
    ```bash
 python data_arrange.py
    ```
@@ -71,6 +71,24 @@ python data_arrange.py
 python CNN_train.py
    ```
 
+## Directory Tree
+
+```bash
+Disaster-Predictor
+|__Disaster (dataset folder)
+     |__Cyclone
+     |__Earthquake
+     |__Flood
+     |__Wildfire
+|__CNN_Model
+     |_vgg16_dd.h5
+|__FineData (this empty folder must be created before running data_arrange.py)
+|__Disaster_detector.py
+|__Data_arrange.py
+|__CNN_train.py
+|__vgg16.multiclassifier.h5 (For model training)
+|__Test images
+```
 ## Technologies Used
 
 - Python
