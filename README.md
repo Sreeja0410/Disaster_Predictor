@@ -57,18 +57,18 @@ To run my app on your local machine, do the following steps.
    - After installing all the dependency libraries, you are ready to run my app on your local machine.
    - To test the model, run the following command on custom images by entering image address in the code, images should be imported into the repo folder. Output will be the probability of the disaster type.
    ```bash
-   disaster_detector.py 
+   python disaster_detector.py 
    ```
 > **Step 6** :
    - To train the model, data should be downloaded from [here](https://drive.google.com/file/d/1NvTyhUsrFbL91E10EPm38IjoCg6E2c6q/view), the data folder should be inside the repo folder, first run data_arrange.py. 
    ```bash
-data_arrange.py
+python data_arrange.py
    ```
 
 > **Step 7** :
    - Then run the following command to train the model on dataset. Model will be saved in CNN_Model folder.
    ```bash
-CNN_train.py
+python CNN_train.py
    ```
 
 ## Technologies Used
