@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Installation](#installation)
-- [Directoy Tree](#directory-tree)
+- [Directory Tree](#directory-tree)
 - [Technologies Used](#technologies-used)
 
 ## Overview
